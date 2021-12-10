@@ -1,0 +1,17 @@
+{
+    "name" : "bilibili AVBV号解析",
+    "namespace" : "bilibili",
+    "priority" : 30000,
+    "support" : [
+        {
+            "sdk" : "onebot",
+            "platform" : "qq",
+            "model" : "all"
+        },
+        {
+            "sdk" : "telegram_poll",
+            "platform" : "telegram",
+            "model" : "all"
+        }
+    ]
+}
